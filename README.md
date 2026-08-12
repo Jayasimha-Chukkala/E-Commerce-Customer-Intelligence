@@ -95,22 +95,37 @@ Customer-level features are created:
 
 ---
 
-## 👥 Customer Segmentation
+## 👥 Customer Segments
 
-K-Means Clustering is used to group customers with similar purchasing behavior.
+After applying K-Means Clustering, customers are grouped according to their purchasing behavior. The clusters are then interpreted into meaningful business segments.
 
-The clustering process identifies customer groups based on their behavioral characteristics.
+### 🟢 High Value Customer
 
-The resulting clusters are interpreted and converted into meaningful customer segments such as:
+- High spending
+- High purchase frequency
+- Recent purchases
+- Valuable customers who are important for customer retention
 
-- High Value Customer
-- Regular Customer
-- At Risk Customer
-- Low Value Customer
+### 🔵 Regular Customer
 
-The exact segment names depend on the characteristics of the generated clusters.
+- Medium spending
+- Medium purchase frequency
+- Normal purchasing activity
+- Customers with consistent purchasing behavior
 
----
+### 🟠 At Risk Customer
+
+- High Recency (long time since last purchase)
+- Lower recent activity
+- May need attention or targeted offers
+- Potential customers to focus on for retention
+
+### 🔴 Low Value Customer
+
+- Low spending
+- Low purchase frequency
+- Low purchasing activity
+- Customers with relatively lower contribution
 
 ## 🤖 Repeat Purchase Prediction
 
